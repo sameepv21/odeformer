@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Module",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scripts.run_baselines",
+            "justMyCode": true,
+            "python": "/Users/sameepvani/miniconda3/envs/odeformer/bin/python",
+            "args": [
+                "--baseline_model=sindy",
+                "--eval_on_pmlb=False",
+                "--dataset=<path_to_dataset>",
+                // "--subsample_ratio=0.25",
+                // "--eval_noise_gamma=0.001"
+            ]
+        }
+    ]
+}
